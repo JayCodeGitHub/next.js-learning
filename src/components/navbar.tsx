@@ -1,9 +1,5 @@
 import Link from "next/link";
 
-interface MainTemplateProps {
-  children: React.ReactNode;
-}
-
 export default function Navbar() {
   return (
     <>
