@@ -1,15 +1,11 @@
 import Link from "next/link";
+import Navbar from "../components/navbar";
 
 function About() {
   return (
     <>
+      <Navbar />
       <h1>About</h1>
-      <li>
-        <Link href="/">Home</Link>
-      </li>
-      <li>
-        <Link href="/about">About</Link>
-      </li>
     </>
   );
 }
